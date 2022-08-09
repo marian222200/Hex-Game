@@ -28,4 +28,16 @@ There are two players. A player picks the red color and the one picks the red co
 
 🔹 Pressing 'r' resets the game back to the original state (just after the settings were made).
 
+## Artificial Intelligence
+
+The algorithm has Player vs Player, Player vs Computer and Computer vs Computer modes. For the last 2, there are additional settings that need to be done. The computer can use [Min-Max algorithm] (https://en.wikipedia.org/wiki/Minimax "More about the Min-Max algorithm") or [Alpha-Beta pruning] (https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning "More about Alpha-Beta pruning"). The user of the app can also select the "difficulty" of the AI, wich sets the depth of the algorithm (a higher difficulty means a greater depth).
+
+## Heuristics Used
+
+For the Min-Max and Alpha-Beta to work we need an heuristic that estimates the score of a game state.
+
+🔹 For the first heurisitc I made something like a Breadth First Search, but with jumps over the white hexes, the more white hexes jumped, lower the score. The score is given by the path from one side to the other that as the fewest missing (white) hexes.
+
+🔹 For the second heurisitc I wanted a score function that rises when the current player has more columns (blue) / rows (red) with pieces on them, and the more he has on that line, the greater the score. So the AI should focus on getting as many columns (blue) / lines (red) and as less pieces on those lines, so the result should be close to one straight line from one side to the other.
+
 
