@@ -30,7 +30,7 @@ There are two players. A player picks the red color and the one picks the red co
 
 ## Artificial Intelligence
 
-The algorithm has Player vs Player, Player vs Computer and Computer vs Computer modes. For the last 2, there are additional settings that need to be done. The computer can use [Min-Max algorithm] (https://en.wikipedia.org/wiki/Minimax "More about the Min-Max algorithm") or [Alpha-Beta pruning] (https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning "More about Alpha-Beta pruning"). The user of the app can also select the "difficulty" of the AI, wich sets the depth of the algorithm (a higher difficulty means a greater depth).
+The algorithm has Player vs Player, Player vs Computer and Computer vs Computer modes. For the last 2, there are additional settings that need to be done. The computer can use [Min-Max algorithm](https://en.wikipedia.org/wiki/Minimax "More about the Min-Max algorithm") or [Alpha-Beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning "More about Alpha-Beta pruning"). The user of the app can also select the "difficulty" of the AI, wich sets the depth of the algorithm (a higher difficulty means a greater depth).
 
 ## Heuristics Used
 
