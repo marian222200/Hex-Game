@@ -2,6 +2,8 @@
 
 An application that can be used to play a variation of the [Hex game](https://en.wikipedia.org/wiki/Hex_(board_game) "About Hex"). It has Player vs Player, Computer vs Player and Computer vs Computer options.
 
+![image](https://user-images.githubusercontent.com/30511514/183648226-48508fca-b5d5-428c-b92c-b3aba9ebe775.png)
+
 ## The rules
 
 There are two players. A player picks the red color and the one picks the red color. Does not matter wich color starts first. Each turn the player places a piece of their representative color on an empty space on the table. The purpose of the game is for blue to connect a bath of hexes from the left side of the table to the right, and for red to connect the top side of the table to the bottom.
